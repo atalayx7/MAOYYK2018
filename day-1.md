@@ -42,13 +42,13 @@ En çok bilinenler standartlar:
 -	OWASP
 
 Sızma Testleri - Genel Prosedür:
--	Hazırlık Aşaması
-  -	NDA imzalanması
-  -	Test içeriğinin belirlenmesi
-  -	Sözleşme
-  -	Sızma testi takımının belirlenmesi
+- Hazırlık Aşaması
+    - NDA imzalanması
+    - Test içeriğinin belirlenmesi
+    - Sözleşme
+    - Sızma testi takımının belirlenmesi
 - Testin Gerçekleştirimesi
--	Detaylı sonuçların alınması ve raporlama
+- Detaylı sonuçların alınması ve raporlama
 
 Sızma Testi Kapsamları:
 -	Özel alan adları
