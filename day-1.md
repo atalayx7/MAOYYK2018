@@ -9,7 +9,7 @@ Güvenlik danışmanı ve Saldırganın ortak yönleri
 - Tarama
 - Sömürü (Güvenlik danışmanı doğrulama için,  saldırgan ise içeriye girmek ve hedefini gerçekleştirmek için)
 
-Zafiyet taraması: Sistemde mevcut olan zafiyetler ( örn. sql injection zafiyeti)
+Zafiyet taraması: Sistemde mevcut olan zafiyetler ( örn. SQL injection zafiyeti)
 
 Total Risk: Bir sistemin oluşturduğu zafiyetin sömürülmesi ile başka sistemin bundan etkilenmesi.
 
@@ -34,7 +34,7 @@ Siber güvenlik danışmanı problemi çözen taraf değil, problemi ortaya çı
 Script kiddie: çeşitli araçları, hazır paketleri kullanarak zafiyeti keşfederek sistemlere ve kişilere saldırmaya, 
 hasar vermeye ve ele geçirdikleri bilgileri kötü amaçla kullanmaya çalışan kişi.
 
-Sızma Testi Metalojileri
+Sızma Testi Metodolojileri
 En çok bilinenler standartlar:
 - OSSTMM
 -	PTES
