@@ -2,6 +2,8 @@
 
 ##  Pasif Bilgi Toplama - OSINT (Açık Kaynak İstihbaratı)
 
+**Herkesin erişimine açık kaynaklar üzerinden yapılan araştırmalar sonucu hedef hakkında bilgiler elde edilmesine Açık Kaynak İstihbaratı(OSINT) denir.**
+
 Subdomain tespiti için kullanılabilecek komutlar:
   - dig -x \<IP>
   - nslookup \<IP>
