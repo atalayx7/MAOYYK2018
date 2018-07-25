@@ -1,1 +1,1 @@
-Ag Guvenligi ve Denetimi Kursu 2018
+Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 - Ağ Güvenliği ve Denetimi Kursu
