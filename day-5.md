@@ -42,6 +42,6 @@ https://www.wappalyzer.com : İçerik yönetim sistemlerini, e-ticaret platforml
 
 https://macvendors.com : Cihazın MAC adresini girerek üretici firmasını tespit eden bir site.
 
-https://haveibeenpwned.com : Girilen E-mail adresinin veri güvenliğini ihlal etmiş olup olmadığını kontrol eden bir site.
+https://haveibeenpwned.com :  Verilen E-mail adresinin herhangi bir veri güvenliğini ihlal edip etmediğini kontrol eden bir site.
 
 https://dnsdumpster.com : DNS keşif, araştırma, DNS kayıtlarını bulma ve arama.
