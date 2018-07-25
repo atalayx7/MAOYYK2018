@@ -15,11 +15,6 @@ Virtualhost'ların tespiti için kullanılabilecek komut:
 **- E-mail tespiti için:**
   - theharvester -d ankara.edu.tr -b bing
 
-https://www.netcraft.com : Hedefin sistemin işletim sistemini öğrenilebilir.
-
-https://www.shodan.io : Bilgi toplamak için geliştirilmiş bir arama motoru. 
-  - Parametreler: hostname:ankara.edu.tr, country:tr
-
 **- FOCA** : Metadata analizleri ile bir çok bilgi elde edilebilir.
 
 **- Google dorkları:**
@@ -27,6 +22,11 @@ https://www.shodan.io : Bilgi toplamak için geliştirilmiş bir arama motoru.
   - site:*.ankara.edu.tr
   - inurl:login site:*.ankara.edu.tr (giriş panellerine yönelik)
   
+https://www.netcraft.com : Hedefin sistemin işletim sistemini öğrenilebilir.
+
+https://www.shodan.io : Bilgi toplamak için geliştirilmiş bir arama motoru. 
+  - Parametreler: hostname:ankara.edu.tr, country:tr
+
 https://www.alexa.com : Domain'ler hakkında istatiksel bilgiler tutan bir servis.
 
 http://archive.org : 1996 yılından günümüze kadar açılan bütün web sitelerin indekslerine -hâlihazırda siteler silinmiş bile olsa- ulaşmanız mümkün.
