@@ -8,15 +8,11 @@ Sızma Testleri:
 - Kablosuz ağ testleri
 - Cloud (bulut) testleri
 
-Firewall (=Güvenlik Duvarı) çeşitli kuralları olan bir ağ güvenlik sistemidir, bir yazılımdır, gelen ve giden ağ trafiğini kontrol eder.
+## OSI Modeli:
 
-Her firewall güvenli mi? Bunun araştırması pentest değil security research çalışmasıdır.
+**1. Application layer** (Uygulama katmanı): Firefox, FTP, SMTP, HTTP
 
-**OSI Modeli:**
-
-**Application layer** (Uygulama katmanı): Firefox, FTP, SMTP, HTTP
-
-**Presentation layer** (Sunum Katmanı): Veriyi uygun hale getiren katmandır, format dönüşümü bu katmanda yapılır. 
+**2. Presentation layer** (Sunum Katmanı): Veriyi uygun hale getiren katmandır, format dönüşümü bu katmanda yapılır. 
   
   Örnek: HTTP (ASCII/text ) Binary datayı ASCII formatına çevirme
 
@@ -24,16 +20,16 @@ Base64 veya SSL (şifreleme yöntemi) format değiştirmek için kullanılan yö
 - fotograf (PNG) --> base64 --> text 
 - text --> base64 --> fotograf (PNG) 
 
-**Session layer** (Oturum katmanı): Oturumu yönetme, uygulama katmanında bir işlem yapıcaksın ama başka bir servise de ihtiyacın var, başka servislerle ve uygulamalarla konuşarak işlem gerçekleştireceğimiz oturumları kendi içerisinde barındırıyor. Başka bir deyişle; servislerin birbirleriyle iletişimini sağlayan katmandır.
+**3. Session layer** (Oturum katmanı): Oturumu yönetme, uygulama katmanında bir işlem yapıcaksın ama başka bir servise de ihtiyacın var, başka servislerle ve uygulamalarla konuşarak işlem gerçekleştireceğimiz oturumları kendi içerisinde barındırıyor. Başka bir deyişle; servislerin birbirleriyle iletişimini sağlayan katmandır.
   
   Örnek:  SSH,RDP,SMB
 
-**Transportation layer** (Taşıma katmanı): TCP ve UDP, iletişimi sağlayan, mesajları gönderen katman.
+**4. Transportation layer** (Taşıma katmanı): TCP ve UDP, iletişimi sağlayan, mesajları gönderen katman.
 
   - UDP: Hızlıdır, streaming işlerinde kullanılır. Bir veri ya da mesaj gönderdiğinizde, iletildiğinden haberiniz olmaz. Mesaj iletilirken bozulma veya kaybolma yaşanabilir.
   - TCP: Bağlantı oryantasyonludur yani bir dosya ya da mesajın iletilmesi için bağlantı olması gerekir. Eğer bağlantı koparsa, sunucu kayıp parçaları talep eder. Mesaj iletilirken herhangi bir bozulma yaşanmaz.
 
-**Network layer** (Ağ katmanı): IPv4, IPv6  adreslerinin oluşturulduğu katman, görevi adresleme.
+**5. Network layer** (Ağ katmanı): IPv4, IPv6  adreslerinin oluşturulduğu katman, görevi adresleme.
   
   - Private IP Blocks: 
     - 192.168.0.0/16
@@ -42,7 +38,7 @@ Base64 veya SSL (şifreleme yöntemi) format değiştirmek için kullanılan yö
     - 169.254.0.0/16
     - 100.100.0.0/16
 	
-**Data link layer** (Veri bağlantısı katmanı): Ethernet ağı varsa MAC’ten (00:00:00:00:00:00-FF:FF:FF:FF:FF:FF) ve ARP (IP’den MAC’e dönüşüm) ve ya RARP’den (=MAC’ten IP’ye dönüşüm) bahsedilebilir. Fiziki anlamda adresleme yapabilir. 
+**6. Data link layer** (Veri bağlantısı katmanı): Ethernet ağı varsa MAC’ten (00:00:00:00:00:00-FF:FF:FF:FF:FF:FF) ve ARP (IP’den MAC’e dönüşüm) ve ya RARP’den (=MAC’ten IP’ye dönüşüm) bahsedilebilir. Fiziki anlamda adresleme yapabilir. 
 
 ARP: 6 octet 48 bitlik 
 
@@ -60,7 +56,7 @@ ARP:   IP --> MAC
 
 RARP: MAC --> IP
 
-**Physical layer** (Fiziksel katman): Bit stream (0 ve 1) dediğimiz veri iletimi bu katmanda sağlanır.
+**7. Physical layer** (Fiziksel katman): Bit stream (0 ve 1) dediğimiz veri iletimi bu katmanda sağlanır.
 
 Fiber, Bakır tel gibi aktarım yöntemleri kullanılır.
 
@@ -200,6 +196,11 @@ LAN: Local area network / yerel ağ
 ICMP: İnternette herhangi bir sorun sıkıntı var mı?
 
 Three way handshake : Oturumun başlaması için gerçekleştirilen ritual.
+
+Firewall (=Güvenlik Duvarı) çeşitli kuralları olan bir ağ güvenlik sistemidir, bir yazılımdır, gelen ve giden ağ trafiğini kontrol eder.
+
+Her firewall güvenli mi? Bunun araştırması pentest değil security research çalışmasıdır.
+
 
 **Three Way Handshake**
       
