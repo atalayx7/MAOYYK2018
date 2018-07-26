@@ -24,10 +24,16 @@
    -  **-v** = Detayları ekranda görüntüler (az)
    -  **-vv**  = Detayları ekranda görüntüler (çok)
    -  **-O**  = Hedef sistemin işletim sistemi tespit etmeye çalışır.
-   -  **f** = paketleri fragment olarak gönderir böylece güvenlik sistemini atlatmak daha olası.
-   -  **system-dns** = İşletim sisteminin DNS servisini kullanır.
+   -  **f** = Fragment paket taraması, güvenlik sistemini atlatmak daha olası.
+   -  **-PU** = UDP Ping taraması için.
+   -  **-PR** = ARP ping taraması yapmak için.
+   -  **-SL** = Hedef listesi ve DNS isimlerini çıkartmak için.
+   -  **-p-** = Tüm portlarda tarama yapmak için.
+   -  **-p 0-61** = Belli bir port aralığında tarama yapmak için.
+   -  **-A** = İşletim sistemi ve versiyon analizi için.
+   -  **system-dns** = İşletim sistemindeki DNS serverları kullanarak tarama.
    -  **--top-ports** = En sık kullanulan portları içeren tarama parametresi.
-
+   -  **--badsum** = Hatalı check sum paketleri yollamak için.
 **Firewall Bypass**
 - nmap -f -f
 - nmap --script=firewall-bypass
