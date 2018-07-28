@@ -15,9 +15,9 @@
 
  echo 1 > /proc/sys/net/ipv4/ip_forward # Routing activation
 
- eth = Ether(dst="00:0c:29:fe:7b:ea",src="00:0c:29:14:3c:c8")
+ eth = Ether(dst="DEST_MAC",src="SRC_MAC")
 
- arp = ARP(op=1, hwsrc="00:0c:29:14:3c:c8",psrc=<"SRC_IP">,pdst=<"DEST_IP">, hwdst=<"DEST_MAC">)
+ arp = ARP(op=1, hwsrc="SRC_MAC",psrc=<"SRC_IP">,pdst=<"DEST_IP">, hwdst=<"DEST_MAC">)
 
  sendp(eth/arp)
  
